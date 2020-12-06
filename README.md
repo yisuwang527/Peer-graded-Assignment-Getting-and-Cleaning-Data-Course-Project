@@ -2,7 +2,9 @@
 title: "README"
 author: "Yisu"
 date: "06/12/2020"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 

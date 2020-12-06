@@ -47,7 +47,7 @@ colnames(activityLabels) <- c('activityId','activityType')
 x_all <- rbind(x_train, x_test)
 y_all <- rbind(y_train, y_test)
 subject_all <- rbind(subject_train, subject_test)
-combined_data <- cbind(subject_all, y _all, x_all)
+combined_data <- cbind(subject_all, y_all, x_all)
 
 #=========================================================
 
