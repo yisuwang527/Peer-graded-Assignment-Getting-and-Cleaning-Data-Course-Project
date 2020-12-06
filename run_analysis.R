@@ -90,5 +90,3 @@ tidy_Data_2 <- tidy_Data %>% group_by(subjectId, activity) %>% summarise_all(fun
 write.table(tidy_Data_2, "tidy_Data_2.txt", row.name=FALSE)
 
 
-
-
